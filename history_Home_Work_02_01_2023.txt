@@ -1,0 +1,13 @@
+   0 cd /tmp
+   1 nano
+   2 ls
+   3 cat /etc/group | tail -5
+   4 cat /etc/group 
+   5 cat /etc/group | tail -5
+   6 cat /etc/group | tail -5 > file.txt
+   7 cat file.txt
+   8 vi file.txt
+   9 cat file.txt
+  10 export_file file.txt
+  11 history
+  12 history > /tmp/history.txt
