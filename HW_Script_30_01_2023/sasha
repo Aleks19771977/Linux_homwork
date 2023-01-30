@@ -1,0 +1,4 @@
+#!/bin/bash
+touch /var/sasha.txt
+date > /var/sasha.txt
+cat /etc/group | tail -3 | sed 's/user/sasha/g' >> /var/sasha.txt
